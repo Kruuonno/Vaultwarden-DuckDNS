@@ -1,6 +1,9 @@
 # VaultWarden-Local-Only
 Local Vaultwarden docker with DuckDNS
+Your instance will only run on local network.
+Use VPN to get back into your network to get external access.
 
+modify .env files with your own info
 
 Download correct caddy file from https://caddyserver.com/download
 
