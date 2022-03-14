@@ -32,6 +32,9 @@ make caddy executable.
 Run " docker-compose up -d " to run docker
 #
 Make sure to change your DuckDNS to match your local Pi's 
+
+![Vaultwarden](https://i.imgur.com/ghZqhcY.jpg)
+
 address example - 192.168.1.55 
 This will make a DNS entry and direct your.duckdns.org address to a local address.
 Since your caddy server is forwarding you to bitwarden along with the cert 
