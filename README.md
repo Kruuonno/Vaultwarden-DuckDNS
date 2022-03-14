@@ -5,9 +5,6 @@
 Local Vaultwarden docker with DuckDNS
 
 This build is only for no access from internet.
-#
-#
-#
 git clone https://github.com/Kruuonno/Vaultwarden-Local-Only
 #
 Your instance will only run on local network.
@@ -25,9 +22,8 @@ Make sure to pick caddy-dns/duckdns.
 #
 Once downloaded renane to caddy and replace caddy in the directory you just cloned.
 #
-make caddy executable.
-#
-"chmod u+x caddy"
+## make caddy executable.
+chmod u+x caddy
 #
 Run " docker-compose up -d " to run docker
 #
