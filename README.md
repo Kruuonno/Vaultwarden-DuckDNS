@@ -22,9 +22,11 @@ Make sure to pick caddy-dns/duckdns.
 ## Once downloaded rename to caddy and replace caddy in the directory you just cloned.
 #
 ## make caddy executable.
-chmod u+x caddy
+**chmod u+x caddy**
 #
-Run **docker-compose up -d** to run docker
+Run 
+**docker-compose up -d** 
+to run docker
 #
 Make sure to change your DuckDNS to match your local Pi's 
 ![Vaultwarden](https://i.imgur.com/ghZqhcY.jpg)
