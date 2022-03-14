@@ -19,8 +19,7 @@ based on your email and DuckDNS info entered into .env files.
 #
 For raspberry Pi 4 64bit get the linux/arm64 version
 Make sure to pick caddy-dns/duckdns.
-#
-Once downloaded renane to caddy and replace caddy in the directory you just cloned.
+## Once downloaded rename to caddy and replace caddy in the directory you just cloned.
 #
 ## make caddy executable.
 chmod u+x caddy
