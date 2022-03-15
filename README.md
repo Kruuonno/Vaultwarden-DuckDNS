@@ -33,20 +33,3 @@ address example - 192.168.1.55
 This will make a DNS entry and direct your.duckdns.org address to a local address.
 Since your caddy server is forwarding you to bitwarden along with the cert 
 Valtwarden will run as if it had a cert and was on internet with https://
-#
-#
-
-⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆
-⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧
-⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
-⠀⠀⠀⠀⠈⠉⠛⠻⠿⠛⠛⢛⣩⣭⣛⢿⣿⣿⣿⣿⣿⣷⣄
-⠀⠀⠀⠀⠀⣾⣿⣦⠀⠀⠀⠀⠀⠉⠙⢷⣽⣿⣿⣿⣿⡇⢉⡀
-⠀⠀⠀⠀⠀⣿⣿⣿⣷⣄⠀⠀⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⣾⡇
-⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⣿⣿⣿⣿⠟⣀⣫
-⠀⠀⠀⠀⠀⠿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠏⠘⠿⠃
-⠀⠀⠀⠀⠀⠀⠀⠘⢿⣆⢻⣿⣿⣿⣿⣿⣿⣿⡇⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣀⣠⣿⣷⣝⠿⠟⠋⠉⠹⡟⣰⡇
-⠀⠀⠀⠀⢀⣤⣠⣿⣿⣿⣿⣿⣿⣶⣶⠟⠁⠀⣿⠁
-⠀⠀⠀⠀⠀⠙⠋⠈⠙⠿⠿⠟⣿⠋⠀⠀⠀⢰⡇
-⠀⠀⠀⠀⠀⠐⠒⠒⠒⠲⣿⡆⠀⠀⠀⠀⠀⠈
-
