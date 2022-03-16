@@ -1,5 +1,5 @@
 #!/bin/bash
-
-wget https://raw.githubusercontent.com/Kruuonno/Vaultwarden-Local-Only/main/auto.sh
+git clone https://github.com/Kruuonno/Vaultwarden-Local-Only.git
+cd Vaultwarden-Local-Only
 chmod +x auto.sh
 ./auto.sh
