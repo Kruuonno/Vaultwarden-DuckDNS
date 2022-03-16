@@ -1,6 +1,6 @@
 
 
-# VaultWarden-Local-Only
+# VaultWarden-DuckDNS
 If you are looking to have Valtwarden runing behind your router in your network not accessible to ouside internet, then this should do it.
 Caddy is used as a proxy and can get certificates to create the https site inside your environment.
 #
