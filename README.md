@@ -4,6 +4,11 @@
 
 Local Vaultwarden docker with DuckDNS
 
+
+[Download Auto build script](https://rebrand.ly/gepuytu)
+
+
+
 This build is only for no access from internet.
 git clone https://github.com/Kruuonno/Vaultwarden-Local-Only
 #
