@@ -4,8 +4,12 @@
 
 Local Vaultwarden docker with DuckDNS
 
+Auto run and answer questions to build .env files
 
-[Download Auto build script](https://rebrand.ly/gepuytu)
+
+## wget -O - https://rebrand.ly/github-kruuonno-vault | bash
+
+
 
 
 
