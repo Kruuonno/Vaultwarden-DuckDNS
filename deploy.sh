@@ -29,6 +29,4 @@ chmod u+x ./caddy
 
 cat ./.env
 cat ./caddy.env
-© 2022 GitHub, Inc.
-Terms
-P
+
