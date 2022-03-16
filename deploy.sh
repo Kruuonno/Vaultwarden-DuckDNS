@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+##### Download from github #########
 git clone https://github.com/Kruuonno/Vaultwarden-Local-Only.git
 
 
