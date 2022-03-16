@@ -26,7 +26,7 @@ whiptail --ok-button Done --msgbox "Your Info Entered  \nToken: $token  \nDomain
 cd Vaultwarden-Local-Only/
 chmod u+x caddy
 
-if (whiptail --title "Do You Want To Start Vaultwarden Docker ?" --yesno "Yes" 8 78 --no-button "No" --yes-button "Yes" ); then
+if (whiptail --title "Do You Want To Start Vaultwarden Docker ?" --yesno "Select Yes or No" 8 78 --no-button "No" --yes-button "Yes" ); then
 echo "Running, exit status was $?."
 
 echo $(docker-compose up -d);
