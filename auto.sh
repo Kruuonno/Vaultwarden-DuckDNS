@@ -3,9 +3,9 @@
 ###################  Auto Setup #######################################
 
 
-git clone https://github.com/Kruuonno/Vaultwarden-Local-Only.git
+#git clone https://github.com/Kruuonno/Vaultwarden-Local-Only.git
 
-cd Vaultwarden-Local-Only/
+#cd Vaultwarden-Local-Only/
 
 read -p "Enter Duckdns Token : " token
 read -p "Enter Domain Name : " domain
