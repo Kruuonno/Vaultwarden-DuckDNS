@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##### Download from github ######
-git clone https://github.com/Kruuonno/Vaultwarden-Local-Only.git
+git clone https://github.com/Kruuonno/Vaultwarden-DuckDNS.git
 
 
 echo "Loading Please Wait"
