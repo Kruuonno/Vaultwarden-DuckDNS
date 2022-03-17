@@ -1,44 +1,44 @@
 
 
-# VaultWarden-Local-Only
-
-Local Vaultwarden docker with DuckDNS
-
-Auto run and answer questions to build .env files
-
-
-## wget -O - https://rebrand.ly/github-kruuonno-vault | bash
-
-
-
-
-
-This build is only for no access from internet.
-git clone https://github.com/Kruuonno/Vaultwarden-Local-Only
+# VaultWarden-DuckDNS
+If you are looking to have Valtwarden runing behind your router in your network not accessible to ouside internet, then this should do it.
+Caddy is used as a proxy and can get certificates to create the https site inside your environment.
 #
-Your instance will only run on local network.
+Prerequisites:
+- [ ] docker and docker-compose installed
+- [ ] wget installed (only needed if want to have one click install)
+- [ ] DuckDNS token 
+- [ ] Email address to register the cert with lets encrypt'
+#
+### `code` wget -O - https://rebrand.ly/github-kruuonno-vault | bash
+Once you run the script, you will be asked a series of questions.
+- [ ] Enter Duckdns Token (Need to register @ DuckDNS)
+- [ ] Enter Domain Name (DuckDNS name you chose - only need the name part DuckDNS will auto populate)
+- [ ] Enter Email (For lets encrypt to dreate cert)
+
+This will auto populate the correct .env fields.
+That is all that is needed to build your caddy and vaultwarden dockers.
+At the end of questions you can choose to start Vaultwarden docker.
+
+Visit your domain name example.duckdns.org and you should be presented with Vaultwarden/Bitwarden create account.
+
+#
 Use VPN to get back into your network to get external access.
-#
-modify .env files with your own info
-#
+Depending on your server you may need to get your own caddy file.
 Download correct caddy file from https://caddyserver.com/download
+Also make sure to select DuckDNS version along with arch type.
+make caddy executable  
+### `code` chmod u+x caddy
 #
 Caddy will use acme and get a cert for you automatically
-based on your email and DuckDNS info entered into .env files.
+based on your email and DuckDNS info entered question box earlier.
 #
 For raspberry Pi 4 64bit get the linux/arm64 version
 Make sure to pick caddy-dns/duckdns.
-## Once downloaded rename to caddy and replace caddy in the directory you just cloned.
-#
+Once downloaded rename to caddy and replace caddy in the directory you just cloned.
 make caddy executable    **chmod u+x caddy**
 
-Run 
-**docker-compose up -d** 
-to run docker
+To run Vaultwarden execute docker cmd inside of Vaultwarden folder
 #
-Make sure to change your DuckDNS to match your local Pi's 
-![Vaultwarden](https://i.imgur.com/ghZqhcY.jpg)
-address example - 192.168.1.55 
-This will make a DNS entry and direct your.duckdns.org address to a local address.
-Since your caddy server is forwarding you to bitwarden along with the cert 
-Valtwarden will run as if it had a cert and was on internet with https://
+### `code` docker-compose up -d 
+

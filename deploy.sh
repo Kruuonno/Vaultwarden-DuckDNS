@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
-git clone https://github.com/Kruuonno/Vaultwarden-Local-Only.git
+##### Download from github ######
+git clone https://github.com/Kruuonno/Vaultwarden-DuckDNS.git
 
 
 echo "Loading Please Wait"
@@ -12,7 +12,6 @@ echo "Enter Your DuckDns Token"
 token=$(whiptail --inputbox "Enter Token Key" 10 30 3>&1 1>&2 2>&3)
 domain=$(whiptail --inputbox "Enter Your Duckdns Name Only" 10 30 3>&1 1>&2 2>&3)
 email=$(whiptail --inputbox "Enter Your Email" 10 30 3>&1 1>&2 2>&3)
-#docker=$(whiptail --yesno "Do You Want To Start Vaultwarden Docker ?" 10 30 3>&1 1>&2 2>&3)
 
 
 echo "$token"
@@ -23,7 +22,7 @@ echo "$email"
 
 whiptail --ok-button Done --msgbox "Your Info Entered  \nToken: $token  \nDomain: $domain \nEmail: $email " 20 50
 
-cd Vaultwarden-Local-Only/
+cd Vaultwarden-DuckDNS/
 chmod u+x caddy
 
 sleep 5s
@@ -53,6 +52,5 @@ sed -i "s/domain/${domain}/g" ./.env
 
 
 docker ps
-
 cat ./caddy.env
 cat ./.env
