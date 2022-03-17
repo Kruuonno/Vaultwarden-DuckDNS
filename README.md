@@ -32,6 +32,7 @@ make caddy executable
 #
 Caddy will use acme and get a cert for you automatically
 based on your email and DuckDNS info entered question box earlier.
+Make sure to put your local ip address for your server - example 192.168.99.44 into DuckDNS for your domain name.
 #
 For raspberry Pi 4 64bit get the linux/arm64 version
 Make sure to pick caddy-dns/duckdns.
