@@ -26,19 +26,19 @@ cd Vaultwarden-DuckDNS/
 chmod u+x caddy
 
 
-if (whiptail --title "Do You Want To Start Vaultwarden Docker ?" --yesno "Select Yes or No" 8 78 --no-button "No" --yes-button "Yes" ); then
-echo "Running, exit status was $?."
+#if (whiptail --title "Do You Want To Start Vaultwarden Docker ?" --yesno "Select Yes or No" 8 78 --no-button "No" --yes-button "Yes" ); then
+#echo "Running, exit status was $?."
 
-sleep 5s
+#sleep 5s
 
-echo $(docker-compose up -d);
+#echo $(docker-compose up -d);
 
-else
-echo "Stopped, exit status was $?."
+#else
+#echo "Stopped, exit status was $?."
 
-fi
+#fi
 
-echo "(Exit status was $exitstatus)"
+#echo "(Exit status was $exitstatus)"
 
 
 sed -i "s/token/${token}/g" ./caddy.env
