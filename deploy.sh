@@ -23,7 +23,7 @@ echo "$email"
 
 whiptail --ok-button Done --msgbox "Your Info Entered  \nToken: $token  \nDomain: $domain \nEmail: $email " 20 50
 
-cd Vaultwarden-Local-Only/
+cd Vaultwarden-DuckDNS/
 chmod u+x caddy
 
 if (whiptail --title "Do You Want To Start Vaultwarden Docker ?" --yesno "Select Yes or No" 8 78 --no-button "No" --yes-button "Yes" ); then
