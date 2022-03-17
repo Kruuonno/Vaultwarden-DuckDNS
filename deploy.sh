@@ -11,8 +11,7 @@ echo "Enter Your DuckDns Token"
 
 token=$(whiptail --inputbox "Enter Token Key" 10 30 3>&1 1>&2 2>&3)
 domain=$(whiptail --inputbox "Enter Your Duckdns Name Only" 10 30 3>&1 1>&2 2>&3)
-email=$(whiptail --inputbox "Enter Your Email" 10 30 3>&1 1>&2 2>&3); then
-echo "Running, exit status was $?."
+email=$(whiptail --inputbox "Enter Your Email" 10 30 3>&1 1>&2 2>&3)
 
 
 echo "$token"
