@@ -55,4 +55,5 @@ sed -i "s/domain/${domain}/g" ./.env
 docker ps
 cat ./caddy.env
 cat ./.env
-start-docker.sh
+chmod u+x ./start-docker.sh
+./start-docker.sh
