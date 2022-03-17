@@ -25,10 +25,11 @@ whiptail --ok-button Done --msgbox "Your Info Entered  \nToken: $token  \nDomain
 cd Vaultwarden-DuckDNS/
 chmod u+x caddy
 
-sleep 5s
 
 if (whiptail --title "Do You Want To Start Vaultwarden Docker ?" --yesno "Select Yes or No" 8 78 --no-button "No" --yes-button "Yes" ); then
 echo "Running, exit status was $?."
+
+sleep 5s
 
 echo $(docker-compose up -d);
 
