@@ -14,7 +14,7 @@ Prerequisites:
 Once you run the script, you will be asked a series of questions.
 - [ ] Enter Duckdns Token (Need to register @ DuckDNS)
 - [ ] Enter Domain Name (DuckDNS name you chose - only need the name part DuckDNS will auto populate)
-- [ ] Enter Email (For lets encrypt to dreate cert)
+- [ ] Enter Email (For lets encrypt to create cert)
 
 This will auto populate the correct .env fields.
 That is all that is needed to build your caddy and vaultwarden dockers.
